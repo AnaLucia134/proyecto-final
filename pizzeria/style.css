@@ -1,0 +1,73 @@
+body {   
+	background-color: skyblue;
+	background: 
+	  linear-gradient(
+	  	rgba(0,170,228,50%),
+	  	rgba(255,255,255,50%)
+	  	) no-repeat,
+	  url(imagenes/pizza.jpeg);
+	  /*https://d1ralsognjng37.cloudfront.net/c5217c53-c607-4f2f-948b-6c02bb2522aa.jpeg/*/
+	  background-size: cover;
+	  height: 750px;
+}
+
+h1{ background-color: blue;
+    color: white; 
+    text-align: center;
+    font-family: sofia, arial; 
+
+ }
+ ul{
+    border-width: 2px;
+    border-color: blue;
+    border-style: solid;
+    float: right;
+    width: 450px;
+    padding: 0px;
+    text-align: center;
+ }
+ li{
+ 	font-family: sofia, arial; 
+    border-width: 1px;
+    border-style: solid;
+    border-color: blue;
+    float:right;
+    width: 120px;
+    height: 60px;
+    margin: 0px 10px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px 50px;
+    padding-top: 30px;
+ }
+ img{ 
+	height: 100px;
+    width: 100px;
+    object-fit: cover;
+    left: 10px;
+    position: absolute;
+    z-index: 1;
+    top:5px;
+ }
+ a{
+ 	text-decoration: none;
+ 	color: white;
+}
+a:hover{ 
+	font-family: sofia, arial; 
+	background-color: #23BAC4;
+	border-radius: 10px 50px;
+	text-decoration: none;
+	color: yellow;
+	display:inline-block;
+	width:120px;
+	height:60px;
+	padding-top: 30px;
+ }
+ div{
+ 	width: 50%;
+ 	height: 700px;
+ 	background-color: #23BAC4;
+ 	padding-top: 20px;
+
+ }
